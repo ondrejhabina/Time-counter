@@ -1,0 +1,40 @@
+body {
+    background-color: #01A8A0;
+}
+
+.main-grid {
+    background-color: white;
+    border: 1px black solid;
+    border-radius: 20px;
+    width: 300px;
+    height: 500px;
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+
+.buttons {
+    justify-self: center;
+    align-self: center;
+    width: 60%;
+    height: 50%;
+    background-color: #01A8A0;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#result {
+    justify-self: center;
+    align-self: center;
+    font-size: 45px;
+}
+
+.inputs {
+    justify-self: center;
+    align-self: center;
+    
+}
+
+input {
+    width: 80px;
+}
